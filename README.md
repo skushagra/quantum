@@ -19,7 +19,7 @@ The code given in the repo can be run on any device locally with python and qisk
 
 ## Circuits for applications
 #### Bernstine-Vazirani Algorithm
-![](Bern-Vazi.jpg)
+![](circuit_pictures/Bern-Vazi.jpg)
 #### 
 ## KushagraS on IBMQ
 

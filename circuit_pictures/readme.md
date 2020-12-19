@@ -7,4 +7,5 @@ https://quantum-computing.ibm.com/composer/
 ### List of Quantum circuits
 ```
 1. Bernstine-Vazirani Algorithm
+2. Out_0 Algorithm
 ```

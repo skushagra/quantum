@@ -1,5 +1,5 @@
 # For a n-bit input it results a n-bit 0 output. 
-# Regardless of the n-bit input it will return a n-bit output.
+# Regardless of the n-bit input it will return a n-bit 0 output.
 import qiskit
 from qiskit import *
 import matplotlib

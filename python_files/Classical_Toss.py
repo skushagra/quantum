@@ -26,7 +26,7 @@ elif ci2=='Flip' and isoc=='Tales':
     isoc = 'Heads'
 
 if isoc == 'Tales':
-    print('You Win')
+    print('Congrats, you made it. You Win')
     
 if isoc == 'Heads':
-    print('Computer Wins')
+    print('Sorry, but the computer won.')

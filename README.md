@@ -1,3 +1,4 @@
+![](circuit_pictures/KushagraS.jpg)
 # Quantum Computing with KushagraS
 Packages and libraries for Quantum Computing using python.
 
@@ -25,6 +26,9 @@ The code given in the repo can be run on any device locally with python and qisk
 ![](circuit_pictures/Out_0.jpg)
 #### Quantum Teleportation Algorithm
 ![](circuit_pictures/quantum_teleportation.jpg)
+#### Quantum Coins
+This game has a circuit similar to the Out_0 Algorithm but remains of fixed length i.e. 2 Quantum Bits and 2 Classical Bits.
+
 ## KushagraS on IBMQ
 
 I personally joined IBMQ in September 2020, though I must say that I am not yet officially a part of IBM's Quantum Team, I hope one day I will be. As of Dec 1, 2020 I am currently enrolled in a year long course on Quantum Computing which is sponsered by IBM called QubitbyQubit by The Coding School. To know more about me follow this link(https://sites.google.com/view/skushagra).

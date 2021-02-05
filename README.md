@@ -31,7 +31,7 @@ This game has a circuit similar to the Out_0 Algorithm but remains of fixed leng
 
 ## KushagraS on IBMQ
 
-I personally joined IBMQ in September 2020, though I must say that I am not yet officially a part of IBM's Quantum Team, I hope one day I will be. As of Dec 1, 2020 I am currently enrolled in a year long course on Quantum Computing which is sponsered by IBM called QubitbyQubit by The Coding School. To know more about me follow this link(https://sites.google.com/view/skushagra).
+I personally joined IBMQ in September 2020, though I must say that I am not yet officially a part of IBM's Quantum Team, I hope one day I will be. As of Dec 1, 2020 I am currently enrolled in a year long course on Quantum Computing which is sponsered by IBM and GoogleAI Quantum called QubitbyQubit by The Coding School.
 Allocated Backend providers used by me on IBMQ :-
 ```
 ibmq_qasm_simulator

@@ -1,8 +1,15 @@
+# Section A
 import qiskit
 from qiskit import *
 from qiskit.tools.visualization import plot_histogram
 import matplotlib.pyplot as plt
+import random
+# Importing standard Qiskit libraries and configuring account
+from qiskit import IBMQ
+# Loading your IBM Q account(s)
+IBMQ.load_account()
 
+# Section B
 isoc = 'Heads'
 cc = ['Flip', 'Not Flip']
 ui1 = input("Choose to 'Flip' or 'Not Flip' the coin. I choose to ")
@@ -27,12 +34,16 @@ if isoc == 'Heads':
     i=0
 else:
     i=1
+
+# Section C
 circuit = QuantumCircuit(i+1,i+1)
 circuit.h(i)
 circuit.x(i)
 circuit.h(i)
-circuit.draw(output='mpl')
-backend = Aer.get_backend('qasm_simulator')
+circuit.measure([i],[i])
+# circuit.draw()
+provider = IBMQ.get_provider(hub='ibm-q')
+device = provider.get_backend('ibmqx2')
 result = execute(circuit, backend=backend, shots=1024).result()
 counts = result.get_counts()
 for i in counts:
@@ -40,3 +51,4 @@ for i in counts:
         print('Congrats, You made it')
     else:
         print('Sorry, the computer won.')
+plot_histogram(counts)

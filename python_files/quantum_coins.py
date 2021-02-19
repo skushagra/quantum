@@ -1,4 +1,4 @@
-# Section A
+# Section A Import Statements
 import qiskit
 from qiskit import *
 from qiskit.tools.visualization import plot_histogram
@@ -9,7 +9,7 @@ from qiskit import IBMQ
 # Loading your IBM Q account(s)
 IBMQ.load_account()
 
-# Section B
+# Section B Classical Logic
 isoc = 'Heads'
 cc = ['Flip', 'Not Flip']
 ui1 = input("Choose to 'Flip' or 'Not Flip' the coin. I choose to ")
@@ -35,7 +35,7 @@ if isoc == 'Heads':
 else:
     i=1
 
-# Section C
+# Section C Quantum Logic 
 circuit = QuantumCircuit(i+1,i+1)
 circuit.h(i)
 circuit.x(i)

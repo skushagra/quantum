@@ -1,5 +1,4 @@
-![](circuit_pictures/KushagraS.jpg)
-# Quantum Computing with KushagraS
+# Quantum Computing
 Packages and libraries for Quantum Computing using python.
 
 ## What is Quantum Computing
@@ -12,7 +11,7 @@ etc.
 ```
 You can search the internet more elaborated and revelent explanation of quantum computing. If you still do not understand I will soon give links of e-books for Quantum Computing.
 
-## Aim of skushagra/quantum
+## Aim
 Mainly programs for quantum computers are written using the library Qiskit, the main aim of skushagra/quantum is to create libraries and packages which further shorten the code hence making your code more compact and efficient.
 
 ## Softwares to be used
@@ -29,7 +28,7 @@ The code given in the repo can be run on any device locally with python and qisk
 #### Quantum Coins
 Quantum Coins is a application of the Out0 Algorithm. Although the number of Qubits remain constant i.e. 2.
 
-## KushagraS on IBMQ
+## on IBMQ
 
 I personally joined IBMQ in September 2020, though I must say that I am not yet officially a part of IBM's Quantum Team, I hope one day I will be. As of Dec 1, 2020 I am currently enrolled in a year long course on Quantum Computing which is sponsered by IBM and GoogleAI Quantum called QubitbyQubit by The Coding School.
 Allocated Backend providers used by me on IBMQ :-

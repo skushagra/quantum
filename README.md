@@ -27,7 +27,7 @@ The code given in the repo can be run on any device locally with python and qisk
 #### Quantum Teleportation Algorithm
 ![](circuit_pictures/quantum_teleportation.jpg)
 #### Quantum Coins
-This game has a circuit similar to the Out_0 Algorithm but remains of fixed length i.e. 2 Quantum Bits and 2 Classical Bits.
+Quantum Coins is a application of the Out0 Algorithm. Although the number of Qubits remain constant i.e. 2.
 
 ## KushagraS on IBMQ
 

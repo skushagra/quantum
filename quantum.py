@@ -3,8 +3,6 @@ def circ(a,b):
     c= QuantumCircuit(a,b)
     return c
 def plot(pt,counts):
-    import qiskit
-    from qiskit import *
     if pt == 'hist':
         from qiskit.tools.visualization import plot_histogram
         plot_histogram(counts)
@@ -12,11 +10,19 @@ def plot(pt,counts):
         from qiskit.tools.visualization import plot_bloch_multivector
         plot_bloch_multivector(counts)
 def qreg(a):
+    from qiskit import QuantumRegister
     q  = QuantumRegister(a)
     return q
 def creg(a):
+    from qiskit import ClassicalRegister
     c = ClassicalRegister(a)
     return c
-def circ():
-    def exe(c, b, s):
-        return execute(c, backend=b, shots=s).result()
+def exe(c, b, s):
+    from qiskit import execute
+    from qiskit import Aer
+    b = Aer.get_backend(b)
+    return execute(c, backend=b, shots=s).result()
+def counts(r):
+    return r.get_counts()
+def draw(c):
+    return c.draw()

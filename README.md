@@ -12,7 +12,7 @@ etc.
 You can search the internet more elaborated and revelent explanation of quantum computing. If you still do not understand I will soon give links of e-books for Quantum Computing.
 
 ## Aim
-Mainly programs for quantum computers are written using the library Qiskit, the main aim of skushagra/quantum is to create libraries and packages which further shorten the code hence making your code more compact and efficient.
+Mainly programs for quantum computers are written using the library Qiskit, the main aim of skushagra/quantum is to create libraries and packages which further improve the code hence making your code more compact and efficient.
 
 ## Softwares to be used
 The code given in the repo can be run on any device locally with python and qiskit installed. For the ease of the user it is recomended to run the given code on Quantum lab of your IBM Quantum Experience account, still the decision of how and where to run the code remains in the hands of the user.

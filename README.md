@@ -27,12 +27,14 @@ The code given in the repo can be run on any device locally with python and qisk
 ![](circuit_pictures/quantum_teleportation.jpg)
 #### Quantum Coins
 Quantum Coins is a application of the Out0 Algorithm. Although the number of Qubits remain constant i.e. 2.
-
+#### Random Integer Generator
+Random number generater uses a RX gate which runs a random number of times to create a binary string of random lenght which when when converted to decimal creates a random positive integer. This creates a truly random number which cannot be calculated by a algorithm.
 ## on IBMQ
 
 I personally joined IBMQ in September 2020, though I must say that I am not yet officially a part of IBM's Quantum Team, I hope one day I will be. As of Dec 1, 2020 I am currently enrolled in a year long course on Quantum Computing which is sponsered by IBM and GoogleAI Quantum called QubitbyQubit by The Coding School.
 Allocated Backend providers used by me on IBMQ :-
 ```
+ibmq_armonk
 ibmq_qasm_simulator
 ibmq_16_melbourne
 ibmq_ourense
